@@ -7,7 +7,8 @@ readme = "README.md"
 packages = [{include = "advent_of_code_2023"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
+pytest = "^7.4.3"
 
 
 [build-system]
