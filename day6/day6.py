@@ -9,7 +9,6 @@ def get_number_of_ways (time: int, distance:int):
     
     return ways
 
-# get_number_of_ways(7,5)
 def main ():
     mor = 1
     times = [38,94,79,70]
@@ -19,5 +18,5 @@ def main ():
         
     print(f"Part1 : marging of error = {mor}")
         
-    print(f"Part 2: margin of error for 71530ms = {get_number_of_ways(time=71530, distance=940200)}")
+    print(f"Part 2: margin of error for 38947970 ms = {get_number_of_ways(time=38947970, distance=241154910741091)}")
 main()
