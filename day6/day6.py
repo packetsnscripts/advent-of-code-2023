@@ -19,4 +19,5 @@ def main ():
         
     print(f"Part1 : marging of error = {mor}")
         
+    print(f"Part 2: margin of error for 71530ms = {get_number_of_ways(time=71530, distance=940200)}")
 main()
